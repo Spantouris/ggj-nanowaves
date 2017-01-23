@@ -21,7 +21,7 @@ public class UI : MonoBehaviour {
     
     public void High()
     {
-        Application.OpenURL("http://83.212.120.66/nanowaves.html");
+        Application.ExternalEval("window.open(\"http://83.212.120.66/nanowaves.html\")");
     }
 
     public void PresstToExit()
