@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8e55f7f3df69d1d428beca553dee6078
+timeCreated: 1485020008
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Happy Camper
+  fontNames:
+  - Happy Camper
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

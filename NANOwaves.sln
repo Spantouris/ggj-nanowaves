@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4B8F701C-A382-854F-D851-A2FC42018BA8}") = "NANOwaves", "Assembly-CSharp-firstpass.csproj", "{B77CB221-703A-D625-8366-4536F7FED407}"
+EndProject
+Project("{4B8F701C-A382-854F-D851-A2FC42018BA8}") = "NANOwaves", "Assembly-CSharp.csproj", "{E58A9FFE-AAA6-5573-E6DC-DF1581240BEE}"
+EndProject
+Project("{4B8F701C-A382-854F-D851-A2FC42018BA8}") = "NANOwaves", "Assembly-CSharp-Editor-firstpass.csproj", "{5F2D1F51-82EB-F895-9B3F-BACB7383612D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77CB221-703A-D625-8366-4536F7FED407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77CB221-703A-D625-8366-4536F7FED407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77CB221-703A-D625-8366-4536F7FED407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77CB221-703A-D625-8366-4536F7FED407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58A9FFE-AAA6-5573-E6DC-DF1581240BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58A9FFE-AAA6-5573-E6DC-DF1581240BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58A9FFE-AAA6-5573-E6DC-DF1581240BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58A9FFE-AAA6-5573-E6DC-DF1581240BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2D1F51-82EB-F895-9B3F-BACB7383612D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2D1F51-82EB-F895-9B3F-BACB7383612D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2D1F51-82EB-F895-9B3F-BACB7383612D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2D1F51-82EB-F895-9B3F-BACB7383612D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

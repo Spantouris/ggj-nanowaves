@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NANOwaves_Dodge.Plugins", "NANOwaves_Dodge.Plugins.csproj", "{DBB419E9-D59F-E540-23AA-40FB70BC846E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NANOwaves_Dodge", "NANOwaves_Dodge.csproj", "{4AA158A8-5EE2-B115-4E0A-28F8FDE2CB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NANOwaves_Dodge.Editor.Plugins", "NANOwaves_Dodge.Editor.Plugins.csproj", "{0966F443-5EEC-C4AA-231D-5C1AFAA4D3EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB419E9-D59F-E540-23AA-40FB70BC846E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB419E9-D59F-E540-23AA-40FB70BC846E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB419E9-D59F-E540-23AA-40FB70BC846E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB419E9-D59F-E540-23AA-40FB70BC846E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA158A8-5EE2-B115-4E0A-28F8FDE2CB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA158A8-5EE2-B115-4E0A-28F8FDE2CB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA158A8-5EE2-B115-4E0A-28F8FDE2CB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA158A8-5EE2-B115-4E0A-28F8FDE2CB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0966F443-5EEC-C4AA-231D-5C1AFAA4D3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0966F443-5EEC-C4AA-231D-5C1AFAA4D3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0966F443-5EEC-C4AA-231D-5C1AFAA4D3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0966F443-5EEC-C4AA-231D-5C1AFAA4D3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
