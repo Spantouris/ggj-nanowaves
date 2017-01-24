@@ -46,17 +46,17 @@ public class Network : MonoBehaviour {
     {
         this.score = score;
         this.user = user;
-        StartCoroutine(submit(this.score,this.user,tx));        
+        StartCoroutine(submit(this.score,this.user,tx,sessionToken));        
     }
     
-    private static IEnumerator submit(int score,string username,Text txt)
+    private static IEnumerator submit(int score,string username,Text txt,string token)
     {
         List<IMultipartFormSection> payload = new List<IMultipartFormSection>();
+                
+        payload.Add(new MultipartFormDataSection("test=test"+"&token="+token+"&highscore="+score+"&username="+username));
         
-        payload.Add(new MultipartFormDataSection("token="+sessionToken+"&highscore="+score+"&username="+username));
-
         UnityWebRequest www = UnityWebRequest.Post(SERVER_URL + "score", payload);
-
+        
         www.downloadHandler = new DownloadHandlerBuffer();
 
         yield return www.Send();
@@ -71,8 +71,16 @@ public class Network : MonoBehaviour {
         {
             Debug.Log("Resdponse Code: " + www.responseCode);
             Debug.Log(www.downloadHandler.text);
-            txt.gameObject.SetActive(true);
-            txt.text = "Submitted";
+            if (www.responseCode != 200)
+            {
+                txt.gameObject.SetActive(true);
+                txt.text = "Error";
+            }
+            else
+            {
+                txt.gameObject.SetActive(true);
+                txt.text = "Submitted";
+            }
         }
     }
 
